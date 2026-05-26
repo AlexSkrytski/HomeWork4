@@ -15,8 +15,10 @@
 
                 Console.WriteLine($"Message {message.message} didn`t sent {DateTime.Now}. Trying to recent.");
                 i++;
+
                 Thread.Sleep(3000);
-                if (i == 2)
+
+                if (i == 2)//заглушка ответа от сервера
                 {
                     feedBack = true;
                 }
