@@ -13,6 +13,7 @@ namespace HomeWork4
             {
                 Console.WriteLine("Input Login:");
                 string User = Console.ReadLine() ?? string.Empty;
+                
                 Console.WriteLine("Input new password:");
                 string password = Console.ReadLine() ?? string.Empty;
                 

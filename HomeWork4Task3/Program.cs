@@ -6,8 +6,11 @@
         {
 
             Message myMessage = new Message("Hello World!");
+
             OutBox myOutBox = new OutBox();
+
             myOutBox.SendMessage(myMessage);
+
             myOutBox.PrintMessageInfo(myMessage);
 
         }

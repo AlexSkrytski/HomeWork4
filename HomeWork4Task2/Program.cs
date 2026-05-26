@@ -10,6 +10,7 @@
             {
 
                 get => name;
+
                 set
                 {
                     if (name != value) // Fixing changes
